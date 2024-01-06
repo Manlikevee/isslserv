@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+.toptabledata{
+    margin-top: -125px;
+}
+.container {
+    width: 1100px;
+    margin: auto;
+    padding: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header{
+    width: 100%;
+    width: 100%;
+    z-index: 999999999;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo img {
+    width: fit-content;
+    height: 40px;
+}
+
+.links{
+    display: flex;
+    gap: 15px;
+
+}
+.herodata{
+    height: 100vh;
+    background-color: #424243;
+    background-image: url('Newfolder/Rectangle\ 3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.links a{
+    text-decoration: none;
+    color: var(--Grey-1, #424243);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px;
+}
+
+.content .container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.herodata h2{
+    text-align: center;
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 75px */
+}
+.domainsearch{
+    width: 70%;
+margin: auto;
+    display: flex;
+    padding: 4px;
+    border-radius: 50px;
+background: #FFF;
+
+}
+.inputbox{
+    width: 100%;
+    padding: 16px;
+}
+
+.button{
+    border-radius: 50px;
+background: var(--ISSL-Red, #EB3238);
+    width: fit-content;
+  
+
+}
+
+.button button{
+    padding: 16px;
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+background-color: transparent;
+outline: none;
+border: none;
+line-height: 150%; /* 36px */
+}
+.inputbox input{
+  height: 100%;
+    width: 100%;
+border: none;
+outline: none;
+color: #222;
+
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; /* 36px */
+}
+.herodata .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.toptabledata{
+    padding: 50px;
+}
+.toptable{
+    padding: 25px;
+    background: rgba(245, 245, 245, 0.75);
+box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(10px);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    grid-auto-rows: 1fr;
+    grid-gap: 20px;
+    gap: 20px;
+}
+
+.databox{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.datatitle{
+    color: var(--ISSL-Red, #EB3238);
+text-align: start;
+font-family: Poppins;
+font-size: 17.711px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 40.067px */
+}
+
+.dataamount{
+    color: #000;
+text-align: start;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 30px */
+}
+
+.dbtwo .datatitle{
+    color: var(--Issl-blue, #3A3A85);
+}
+
+.dbthree .datatitle{
+    color: #222;
+}
+
+.dbfour .datatitle{
+    color: #222;
+}
+
+.dbfive .datatitle{
+    color: #FFA033;
+}
+
+.dbsix .datatitle{
+    color: #003466;
+}
+
+.dbseven .datatitle{
+    color: var(--ISSL-Red, #EB3238);
+}
+
+.hostingtext{
+    text-align: center;
+    color: #222;
+text-align: center;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 6px;
+}
+
+.bluetext{
+    color: var(--Issl-blue, #3A3A85);
+font-family: Poppins;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+}
+
+.title{
+    margin-top: 30px;
+    padding-top: 30px;
+    text-align: center;
+    color: #222;
+text-align: center;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 60px */
+}
+
+
+.herogrid {
+ 
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 1fr;
+    grid-gap: 20px;
+    gap: 20px;
+}
+
+.datacard {
+    padding: 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 100%;
+    background-color: white;
+gap: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.datacard:nth-child(1){
+    background: #FEE;
+
+}
+
+.datacard:nth-child(2){
+    background: #F2EEFF;
+}
+
+.datacard:nth-child(3){
+    background: #FFFBEE;
+}
+
+.datacard:nth-child(4){
+    background: #FFEEF6;
+}
+
+.datacard:nth-child(5){
+    background: #F2FFEE;
+}
+
+.datacard:nth-child(6){
+    background: #EEFFFE;
+}
+
+.datatext{
+    color: #222;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 180%; /* 30px */
+}
+
+.datadata{
+    color: #222;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: 27px; /* 24px */
+}
+
+.faqtitle{
+    margin-top: 40px;
+    color: #222;
+text-align: center;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.accordiontitle{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    color: #3A3A85;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 155.556% */
+border-bottom: 1px solid #C0C6CB;
+cursor: pointer;
+}
+.faqaccordion{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.plus{
+    color: #C0C6CB;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 93.333% */
+}
